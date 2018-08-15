@@ -1,0 +1,17 @@
+.resume {
+    display: flex;
+    width: 650px;
+}
+
+/* aside */
+.resume > aside {
+    width: 238px;
+    border: 1px solid red;
+}
+
+/* main */
+
+.resume > main {
+    flex-grow: 1;
+    border: 1px solid green;
+}
