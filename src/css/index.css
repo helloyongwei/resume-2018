@@ -35,7 +35,6 @@ button {
   overflow: auto;
 }
 
-
 .resume {
   max-width: 800px;
   margin: 0 auto;
@@ -48,6 +47,7 @@ button {
   text-align: center;
   margin: 20px 0;
 }
+
 .resume .profile {
   text-align: center;
 }
@@ -79,4 +79,17 @@ button {
 }
 .resume .projects header .start {
   display: flex;
+}
+
+.editable-span {
+  position: relative;
+}
+.editable-span button {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  display: none;
+}
+.editable-span:hover button {
+  display: inline-block;
 }

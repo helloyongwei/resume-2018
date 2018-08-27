@@ -4,7 +4,8 @@
   "description": "基本信息 软件技能 项目经验 教育背景 个人评价",
   "main": "index.js",
   "dependencies": {
-    "leancloud-storage": "^3.10.0"
+    "leancloud-storage": "^3.10.0",
+    "vue": "^2.5.13"
   },
   "devDependencies": {},
   "scripts": {
