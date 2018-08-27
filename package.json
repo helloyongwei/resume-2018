@@ -1,0 +1,24 @@
+{
+  "name": "resume-2018",
+  "version": "1.0.0",
+  "description": "基本信息 软件技能 项目经验 教育背景 个人评价",
+  "main": "index.js",
+  "dependencies": {
+    "leancloud-storage": "^3.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helloyongwei/resume-2018.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helloyongwei/resume-2018/issues"
+  },
+  "homepage": "https://github.com/helloyongwei/resume-2018#readme"
+}

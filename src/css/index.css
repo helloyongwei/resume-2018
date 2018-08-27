@@ -1,0 +1,82 @@
+* {margin: 0; padding: 0;}
+*, *::before, *::after {box-sizing: border-box;}
+a {text-decoration: none; color: inherit;}
+ul, ol {list-style: none;}
+@media (min-width: 500px) {
+  .page {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+  }
+}
+body {
+  font-size: 18px;
+}
+button {
+  font-style: inherit;
+}
+.page > aside {
+  width: 200px;
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 0 0 rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+.page > aside .button {
+  padding: 3px 10px;
+  margin: 4px;
+}
+.page > main {
+  border: 1px solid green;
+  flex-grow: 1;
+  overflow: auto;
+}
+
+
+.resume {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.resume > section {
+  margin: 50px 0;
+}
+.resume > section > h1,
+.resume > section > h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+.resume .profile {
+  text-align: center;
+}
+.resume .skills > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.resume .skills > ul > li {
+  width: 48%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.resume .projects > ol > li {
+  margin: 30px 0;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+.resume .projects header {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.resume .projects header .name {
+  margin-right: 1em;
+}
+.resume .projects header .start {
+  display: flex;
+}
