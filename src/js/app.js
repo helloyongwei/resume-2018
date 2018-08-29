@@ -3,6 +3,7 @@ let app = new Vue({ el: '#app',
     loginVisible: false,
     signUpVisible: false,
     shareVisible: false,
+    skinPickerVisible: false,
     previewUser: {
       objectId: undefined,
     },
@@ -145,6 +146,12 @@ let app = new Vue({ el: '#app',
     removeProject (index) {
       this.resume.projects.splice(index, 1)
     },
+    print(){
+      window.print()
+    },
+    setTheme(name) {
+      document.body.className = name
+    }
   }
 })
 
